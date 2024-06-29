@@ -1,0 +1,97 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url(/Untitled\ design.jpg);
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 25px;
+    font-size: 30px
+}
+.left div{
+    text-align: center;
+    color: antiquewhite;
+}
+.mid{
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 40px;
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    padding: 34px 23px;
+    
+}
+.navbar li a:hover, .navbar li a.active{
+    color: aquamarine;
+    
+}
+.btn{
+    font-family: "Poppins", sans-serif;
+    margin: 0px 5px;
+    background-color: rgb(29, 124, 226);
+    color: antiquewhite;
+    padding: 4px 14px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(24, 114, 210);
+    color: rgb(215, 201, 183);
+}
+.container{
+    border: 2px solid rgb(6, 127, 161);
+    font-size: large;
+    text-align: center;
+    margin: 70px 670px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 20px;
+}
+.container h2{
+    color: rgb(5, 80, 88);
+}
+.container p{
+    font-size: 25px;
+}
+.formgrp input{
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    width:400px;
+    padding: 1px;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;;
+    margin: 3px auto;
+    color:  rgb(13, 146, 158);
+    background-color: rgb(222, 237, 232);
+}
+.container button{
+    display: block;
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+    background-color: rgb(13, 146, 158);
+}
